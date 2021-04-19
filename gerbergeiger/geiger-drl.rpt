@@ -1,0 +1,29 @@
+Drill report for D:/Kicad/geiger/geiger.kicad_pcb
+Created on 19.04.2021 10:22:15
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'geiger-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,75mm  0,030"  (6 holes)
+    T2  0,80mm  0,031"  (102 holes)
+    T3  0,90mm  0,035"  (2 holes)
+    T4  1,00mm  0,039"  (6 holes)
+    T5  1,10mm  0,043"  (3 holes)
+    T6  1,20mm  0,047"  (2 holes)
+    T7  1,30mm  0,051"  (4 holes)
+    T8  1,50mm  0,059"  (3 holes)
+
+    Total plated holes count 128
+
+
+Drill file 'geiger-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
