@@ -294,7 +294,7 @@ F 3 "" H 3150 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Reference_Voltage:LM385Z-2.5 U2
+L geiger-rescue:LM385Z-2.5-Reference_Voltage U2
 U 1 1 60821F46
 P 3650 5600
 F 0 "U2" H 3650 5500 50  0000 C CNN

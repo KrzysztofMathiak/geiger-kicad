@@ -199,4 +199,5 @@
   (lib (name Triac_Thyristor)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-5.1.7/Triac_Thyristor.lib)(options "")(descr ""))
   (lib (name Valve)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-5.1.7/Valve.lib)(options "")(descr ""))
   (lib (name Video)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-5.1.7/Video.lib)(options "")(descr ""))
+  (lib (name geiger-rescue)(type Legacy)(uri ${KIPRJMOD}/geiger-rescue.lib)(options "")(descr ""))
 )
