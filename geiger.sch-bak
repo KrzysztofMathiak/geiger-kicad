@@ -294,7 +294,7 @@ F 3 "" H 3150 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Reference_Voltage:LM385Z-2.5 U2
+L geiger-rescue:LM385Z-2.5-Reference_Voltage U2
 U 1 1 60821F46
 P 3650 5600
 F 0 "U2" H 3650 5500 50  0000 C CNN
@@ -574,7 +574,7 @@ U 1 1 60894745
 P 3700 3800
 F 0 "U6" H 3700 4065 50  0000 C CNN
 F 1 "GEIGERTUBE-STS6" H 3700 3974 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3700 3800 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 3700 3800 50  0001 C CNN
 F 3 "" H 3700 3800 50  0001 C CNN
 	1    3700 3800
 	1    0    0    -1  
@@ -876,14 +876,18 @@ F 3 "" H 950 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery BT1
-U 1 1 607C6CDB
-P 950 1500
-F 0 "BT1" H 1050 1600 50  0000 L CNN
-F 1 "2X18650 series" H 950 1500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 950 1560 50  0001 C CNN
-F 3 "~" V 950 1560 50  0001 C CNN
-	1    950  1500
-	1    0    0    -1  
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 6080789A
+P 750 1550
+F 0 "J1" H 668 1225 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 668 1316 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 750 1550 50  0001 C CNN
+F 3 "~" H 750 1550 50  0001 C CNN
+	1    750  1550
+	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	950  1550 950  1700
+Wire Wire Line
+	950  1450 950  1300
 $EndSCHEMATC
